@@ -75,6 +75,20 @@ focus_tree = {
 		prerequisite = {
 			focus = wbh_our_goal
 		}
+		available = {
+			AND {
+				IF {
+					ISN = {
+						is_puppet_of = WBH
+					}
+				}
+				IF {
+					TCA = {
+						is_puppet_of = WBH
+					}
+				}
+			}
+		}
 	x = 16
 	y = 3
 	completion_reward = {
@@ -89,11 +103,21 @@ focus_tree = {
 			focus = wbh_our_goal
 		}
 		available = {
-			has_country_flag = wbh_border
+			AND {
+				country_has_flag = wbh_border
 			}
+		}
 	x = 18
 	y = 3
 	completion_reward = {
-		
+		WBH = {
+    		every_owned_state = {
+        		limit = {
+            	is_core_of = TCA
+        		}
+        	add_core_of = WBH
+    		}
+		}
 	}
 	}
+}
