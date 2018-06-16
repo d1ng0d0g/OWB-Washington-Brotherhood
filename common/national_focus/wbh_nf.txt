@@ -57,7 +57,7 @@ focus_tree = {
 		cost = 1
 		prerequisite = {
 			focus = wbh_vault_six
-			focus = wbh_for_twillamette
+			focus = wbh_fort_willamette
 		}
 		x = 17
 		y = 2

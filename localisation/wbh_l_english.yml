@@ -13,11 +13,13 @@
  nf_wbh.2.b:0 "A lot of ghouls, but we managed to acquire valuable holodiscs from inside. "
  nf_wbh.2.c:0 "The vault was a boneyard, but we acquired valuable holodiscs from inside."
 #What we found in the Fort
+ nf_wbh.3.t:0 "What we found? "
  nf_wbh.3.desc:0 "With the savages still threatening us, we have penetrated the defenses of Fort Willamette. We found:"
  nf_wbh.3.a:0 "Some of the hangars and armouries still intact and sealed."
  nf_wbh.3.b:0 "Functional pre-War construction machinery."
  nf_wbh.3.c:0 "The base's reactor still fully operational."
 #What is our goal ?
+ nf_wbh.4.t:0 "Our goal ?"
  nf_wbh.4.desc:0 "With our brothers up north in Alaska and our brothers south in California we came to the Washington Wasteland because:"
  nf_wbh.4.a:0 "Pre-War espionage might give insight in how to stop the Chinese Doomsday Device."
  nf_wbh.4.b:0 "Create a buffer state to guarantuee the survival of our Alaskan brethren."

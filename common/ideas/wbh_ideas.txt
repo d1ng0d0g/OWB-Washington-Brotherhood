@@ -1,10 +1,13 @@
 ideas = {
 	country = {
-		wbh_testing_idea = {
+		wbh_armed_scribes = {
 			picture = VEG_Military_Priorities
 			allowed = {
 			}
 			removal_cost = -1
+			modifier = {
+				research_time_factor = -0.05 
+			}
 
 		}
 	}

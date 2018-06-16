@@ -11,14 +11,14 @@ country_event = {
 	option = {
 		name = nf_wbh.1.a
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
         
 	}
 	
 	option = {
 		name = nf_wbh.1.b
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
 		
 	}
 }
@@ -34,21 +34,21 @@ country_event = {
 	option = {
 		name = nf_wbh.2.a
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
         
 	}
 	
 	option = {
 		name = nf_wbh.2.b
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
 		
 	}
 	
 	option = {
 		name = nf_wbh.2.b
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
 		
 	}
 }
@@ -64,20 +64,20 @@ country_event = {
 	option = {
 		name = nf_wbh.3.a
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
         
 	}
 	
 	option = {
 		name = nf_wbh.3.b
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
 		
 	}
 	option = {
 		name = nf_wbh.3.b
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
 		
 	}
 }
@@ -93,7 +93,7 @@ country_event = {
 	option = {
 		name = nf_wbh.4.a
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
         
 		set_country_flag = wbh_doomsday
 		
@@ -102,9 +102,11 @@ country_event = {
 	option = {
 		name = nf_wbh.4.b
 		
-		add_ideas = wbh_testing_idea
+		add_ideas = wbh_armed_scribes
 		
 		set_country_flag = wbh_border
 		
 	}
 }
+
+# remove_idea wbh_armed_scribes after some time
