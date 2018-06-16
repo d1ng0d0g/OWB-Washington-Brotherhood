@@ -1,4 +1,4 @@
-﻿add_namespace = nf_wbh
+add_namespace = nf_wbh
 #Savage Locals
 country_event = {
 	id = nf_wbh.1
