@@ -1,0 +1,11 @@
+﻿ideas = {
+	country = {
+		wbh_testing_idea = {
+			picture = VEG_Military_Priorities
+			allowed = {
+			}
+			removal_cost = -1
+
+		}
+	}
+}

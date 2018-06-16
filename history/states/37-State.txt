@@ -1,0 +1,34 @@
+state = {
+	id = 37
+	name = "STATE_FORT_WILLIAMETTE"
+	manpower = 12000
+	state_category = city
+	
+	resources = {
+		metal = 17
+		fuel = 6
+	}
+	
+	history = {
+		owner = WBH
+		add_core_of = WBH
+		add_core_of = TCA
+		victory_points = {
+			3886 20
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			dockyard = 1
+			air_base = 1
+			3891 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces = {
+		1471 1951 3883 3884 3885 3886 3887 3889 3890 3891 4337 8566 8567
+	}
+}

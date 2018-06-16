@@ -1,0 +1,22 @@
+state = {
+	id = 424
+	name = "STATE_HADLOCK_IRONDALE"
+	manpower = 3500
+	state_category = rural
+	
+	history = {
+		owner = ISN
+		add_core_of = ISN
+		victory_points = {
+			4027 5
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+	}
+	
+	provinces = {
+		3047 4028 4027 1924 1925 4026 1516
+	}
+}

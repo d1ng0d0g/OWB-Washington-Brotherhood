@@ -1,0 +1,69 @@
+﻿focus_tree = {
+	id = wbh_nf
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 200
+			tag = NBH
+		}
+	}
+		
+	default = no
+
+	focus = {
+		id = wbh_savage_locals
+		icon = GFX_goal_bos_generic
+		cost = 1
+		prerequisite = {
+		}
+		x = 17
+		y = 0
+		completion_reward = {
+			country_event = { id = nf_wbh.1 }
+		}
+
+	}
+	focus = {
+		id = wbh_vault_six
+		icon = GFX_goal_bos_generic
+		cost = 1
+		prerequisite = {
+			focus = wbh_savage_locals
+		}
+		x = 16
+		y = 1
+		completion_reward = {
+			country_event = { id = nf_wbh.2 }
+		}
+	}
+	focus = {
+		id = wbh_fort_willamette
+		icon = GFX_goal_bos_generic
+		cost = 1
+		prerequisite = {
+			focus = wbh_savage_locals
+		}
+		x = 18
+		y = 1
+		completion_reward = {
+			country_event = { id = nf_wbh.3 }
+		}
+	}
+	focus = {
+		id = wbh_our_goal
+		icon = GFX_goal_bos_generic
+		cost = 1
+		prerequisite = {
+			focus = wbh_vault_six
+			focus = wbh_for_twillamette
+		}
+		x = 17
+		y = 2
+		completion_reward = {
+			country_event = { id = nf_wbh.4 }
+		}
+
+	}
+}

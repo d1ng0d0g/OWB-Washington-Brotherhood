@@ -1,0 +1,110 @@
+﻿add_namespace = nf_wbh
+#Savage Locals
+country_event = {
+	id = nf_wbh.1
+	title = nf_wbh.1.t
+	desc = nf_wbh.1.desc
+	picture = GFX_event_BOS_super_mutant
+
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_wbh.1.a
+		
+		add_ideas = wbh_testing_idea
+        
+	}
+	
+	option = {
+		name = nf_wbh.1.b
+		
+		add_ideas = wbh_testing_idea
+		
+	}
+}
+#Vault Six
+country_event = {
+	id = nf_wbh.2
+	title = nf_wbh.2.t
+	desc = nf_wbh.2.desc
+	picture = GFX_event_BOS_super_mutant
+
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_wbh.2.a
+		
+		add_ideas = wbh_testing_idea
+        
+	}
+	
+	option = {
+		name = nf_wbh.2.b
+		
+		add_ideas = wbh_testing_idea
+		
+	}
+	
+	option = {
+		name = nf_wbh.2.b
+		
+		add_ideas = wbh_testing_idea
+		
+	}
+}
+#Fort Willamette
+country_event = {
+	id = nf_wbh.3
+	title = nf_wbh.3.t
+	desc = nf_wbh.3.desc
+	picture = GFX_event_BOS_super_mutant
+
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_wbh.3.a
+		
+		add_ideas = wbh_testing_idea
+        
+	}
+	
+	option = {
+		name = nf_wbh.3.b
+		
+		add_ideas = wbh_testing_idea
+		
+	}
+	option = {
+		name = nf_wbh.3.b
+		
+		add_ideas = wbh_testing_idea
+		
+	}
+}
+#Our Goal
+country_event = {
+	id = nf_wbh.4
+	title = nf_wbh.4.t
+	desc = nf_wbh.4.desc
+	picture = GFX_event_BOS_super_mutant
+
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_wbh.4.a
+		
+		add_ideas = wbh_testing_idea
+        
+		set_country_flag = wbh_doomsday
+		
+	}
+	
+	option = {
+		name = nf_wbh.4.b
+		
+		add_ideas = wbh_testing_idea
+		
+		set_country_flag = wbh_border
+		
+	}
+}

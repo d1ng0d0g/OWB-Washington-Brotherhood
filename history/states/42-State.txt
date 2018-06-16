@@ -1,0 +1,29 @@
+state = {
+	id = 42
+	name = "STATE_RHOMBUS_ISLAND"
+	manpower = 1500
+	state_category = shanty
+	
+	resources = {
+		water = 20
+	}
+	
+	history = {
+		owner = ISN
+		add_core_of = ISN
+		victory_points = {
+			7392 3
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			7392 = {
+				naval_base = 3
+			}
+		}
+	}
+	
+	provinces = {
+		1519 7393 7392
+	}
+}
