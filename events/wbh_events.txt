@@ -63,7 +63,7 @@ country_event = {
     
 	option = {
 		name = nf_wbh.3.a
-		
+		load_oob = wbh_armed_scribes #create wbh_armed_scribes file in /history/units
 		add_ideas = wbh_armed_scribes
         
 	}
@@ -71,7 +71,8 @@ country_event = {
 	option = {
 		name = nf_wbh.3.b
 		
-		add_ideas = wbh_armed_scribes
+		local_oob = wbh_local_talent #create wbh_local_talent file in / history/units
+		add_ideas = wbh_local_talent
 		
 	}
 	option = {
