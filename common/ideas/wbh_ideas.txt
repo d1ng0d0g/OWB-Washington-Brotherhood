@@ -6,7 +6,18 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.05 
+				research_time_factor = -0.10 
+			}
+
+		}
+		wbh_local_talent = {
+			picture = VEG_Military_Priorities
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_org_Factor = -0.05
+				planning_speed	= -0.20
 			}
 
 		}

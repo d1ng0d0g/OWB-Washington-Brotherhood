@@ -5,7 +5,7 @@
  nf_wbh.1.t:0 "Savage Locals"
  nf_wbh.1.desc:0 "The locals did not appreciate our investigation of Fort Willamette and Vault Six. They attacked us straight away. The braves of the so called Issaquah Nation and the freaks, mutants and abominations that call themselves The Cause. We were not prepared to be attacked in such numbers. And so we had to call for help. "
  nf_wbh.1.a:0 "We armed every man and woman that already served the Brotherhood."
- nf_wbh.1.b:0 "No matter the distaste, we had to call and rely on the help of mercenaries."
+ nf_wbh.1.b:0 "No matter our distaste, we had to call and rely on the help of mercenaries."
 #What we found in the Vault
  nf_wbh.2.t:0 "What we found?	"
  nf_wbh.2.desc:0 "With the savages still threatening us, we have penetrated the defenses of Vault Six. We found:"
@@ -37,3 +37,7 @@
  #Ideas Localization
  wbh_armed_scribes: "Armed Scribes"
  wbh_armed_scribes: "With our scribes now assigned to military duty any advances will be significantly hampered."
+
+ #Custom Tooltips
+ tt_armed_scribes: "X Units of armed scribes" #replace X with proper number.
+ tt_local_talent: "X units of mercenaries"  #replace X with proper number.

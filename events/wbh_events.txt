@@ -10,15 +10,17 @@ country_event = {
     
 	option = {
 		name = nf_wbh.1.a
-		
+		hidden_effect = { load_oob = wbh_armed_scribes } #create wbh_armed_scribes file in /history/units
+		custom_effect_tooltip = tt_armed_scribes		
 		add_ideas = wbh_armed_scribes
         
 	}
 	
 	option = {
 		name = nf_wbh.1.b
-		
-		add_ideas = wbh_armed_scribes
+		hidden_effect = { load_oob = wbh_local_talent } #create wbh_local_talent file in / history/units
+		custom_effect_tooltip = tt_local_talent		
+		add_ideas = wbh_local_talent
 		
 	}
 }
@@ -63,7 +65,7 @@ country_event = {
     
 	option = {
 		name = nf_wbh.3.a
-		load_oob = wbh_armed_scribes #create wbh_armed_scribes file in /history/units
+
 		add_ideas = wbh_armed_scribes
         
 	}
@@ -71,8 +73,8 @@ country_event = {
 	option = {
 		name = nf_wbh.3.b
 		
-		local_oob = wbh_local_talent #create wbh_local_talent file in / history/units
-		add_ideas = wbh_local_talent
+
+		add_ideas = wbh_armed_scribes
 		
 	}
 	option = {
@@ -110,4 +112,4 @@ country_event = {
 	}
 }
 
-# remove_idea wbh_armed_scribes after some time
+# remove_idea wbh_armed_scribes after some time. Maybe decision ? Sounds better.
