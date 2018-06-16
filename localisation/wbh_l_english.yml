@@ -33,7 +33,11 @@
   wbh_fort_willamette_desc: "The automated defenses of the Fort are still operational. We're going to breach them to see what it is protecting."
   wbh_our_goal: "Our goal ?"
   wbh_our_goal_desc: "We came to the Washington State Wasteland with a reason."
-  
+  wbh_neighbour_puppet: "Enforce our rules. "
+  wbh_neighbour_puppet_desc: "We hold no grudges to our former enemies as long as they follow our rules. They shall not suffer the mutant and the ghoul to live among them. And they shall provide us with their levy."
+  wbh_neighbour_annex: ""
+  wbh_neighbour_annex_desc: ""
+ 
  #Ideas Localization
  wbh_armed_scribes: "Armed Scribes"
  wbh_armed_scribes_desc: "With our scribes now assigned to military duty any advances will be significantly hampered."
@@ -47,6 +51,8 @@
  wbh_more_valuable_discs_desc: "The data we gathered will serve us for a long time."
  wbh_functional_construction_gear: "Pre-War construction machinery."
  wbh_functional_construction_gear_desc: "This machinery will help us build up the north."
+ wbh_bitch: "We're paying massively to our overlord."
+ wbh_bitch_desc: "Harsh tarrifs and high demands for labour on puppeted nations"
  
  #Custom Tooltips
  tt_armed_scribes: "6 Units of armed scribes\n" 

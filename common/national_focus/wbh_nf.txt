@@ -57,6 +57,8 @@ focus_tree = {
 		cost = 1
 		prerequisite = {
 			focus = wbh_vault_six
+			}
+		prerequisite = {
 			focus = wbh_fort_willamette
 		}
 		x = 17
@@ -67,20 +69,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = wbh_puppet_isn
-		icon = GFX_goal_bos_generic
-		cost = 2
-		prerequisite = {
-			focus = wbh_our_goal
-		}
-	x = 15
-	y = 3
-	completion_reward = {
-
-	}
-	}
-	focus = {
-		id = wbh_puppet_tca
+		id = wbh_neighbour_puppet
 		icon = GFX_goal_bos_generic
 		cost = 2
 		prerequisite = {
@@ -89,27 +78,11 @@ focus_tree = {
 	x = 16
 	y = 3
 	completion_reward = {
-		
+
 	}
 	}
 	focus = {
-		id = wbh_annex_isn
-		icon = GFX_goal_bos_generic
-		cost = 2
-		prerequisite = {
-			focus = wbh_our_goal
-			}
-		available = {
-			has_country_flag = wbh_border
-			}
-	x = 17
-	y = 3
-	completion_reward = {
-		
-	}
-	}
-	focus = {
-		id = wbh_annex_tca
+		id = wbh_neighbour_annex
 		icon = GFX_goal_bos_generic
 		cost = 2
 		prerequisite = {
@@ -124,4 +97,3 @@ focus_tree = {
 		
 	}
 	}
-}

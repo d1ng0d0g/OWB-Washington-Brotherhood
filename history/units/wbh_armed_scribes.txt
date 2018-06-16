@@ -1,4 +1,4 @@
-division_template = {
+﻿division_template = {
 	name = "Armed Scribes"
 	regiments = {
 		power_armour = { x = 0 y = 0 }

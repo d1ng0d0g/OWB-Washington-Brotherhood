@@ -60,5 +60,16 @@ ideas = {
 				production_speed_buildings_factor = 0.10
 			}
 		}
+		wbh_bitch = {
+			picture = VEG_Military_Priorities
+			allowed = {
+
+			}
+			removal_cost = -1
+			modifier = {
+				targeted_modifier = { tag = WBH cic_to_target_factor = 1.0 }
+				targeted_modifier = { tag = WBH mic_to_target_factor = 1.0 }
+			}
+		}
 	}
 }
