@@ -6,7 +6,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.10 
+				research_time_factor = 0.10 
 			}
 
 		}
@@ -20,6 +20,45 @@ ideas = {
 				planning_speed	= -0.20
 			}
 
+		}
+		wbh_nothing_can_stop_us = {
+			picture = VEG_Military_Priorities
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_morale_factor = 0.1
+			}
+
+		}
+		wbh_valuable_discs = {
+			picture = VEG_Military_Priorities
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_time_factor = -0.10
+			}
+
+		}
+		wbh_more_valuable_discs = {
+			picture = VEG_Military_Priorities
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_time_factor = -0.20
+			}
+
+		}
+		wbh_functional_construction_gear = {
+			picture = VEG_Military_Priorities
+			allowed = { 
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.10
+			}
 		}
 	}
 }

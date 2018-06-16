@@ -66,4 +66,62 @@ focus_tree = {
 		}
 
 	}
+	focus = {
+		id = wbh_puppet_isn
+		icon = GFX_goal_bos_generic
+		cost = 2
+		prerequisite = {
+			focus = wbh_our_goal
+		}
+	x = 15
+	y = 3
+	completion_reward = {
+
+	}
+	}
+	focus = {
+		id = wbh_puppet_tca
+		icon = GFX_goal_bos_generic
+		cost = 2
+		prerequisite = {
+			focus = wbh_our_goal
+		}
+	x = 16
+	y = 3
+	completion_reward = {
+		
+	}
+	}
+	focus = {
+		id = wbh_annex_isn
+		icon = GFX_goal_bos_generic
+		cost = 2
+		prerequisite = {
+			focus = wbh_our_goal
+			}
+		available = {
+			has_country_flag = wbh_border
+			}
+	x = 17
+	y = 3
+	completion_reward = {
+		
+	}
+	}
+	focus = {
+		id = wbh_annex_tca
+		icon = GFX_goal_bos_generic
+		cost = 2
+		prerequisite = {
+			focus = wbh_our_goal
+		}
+		available = {
+			has_country_flag = wbh_border
+			}
+	x = 18
+	y = 3
+	completion_reward = {
+		
+	}
+	}
 }

@@ -15,7 +15,7 @@
 #What we found in the Fort
  nf_wbh.3.t:0 "What we found? "
  nf_wbh.3.desc:0 "With the savages still threatening us, we have penetrated the defenses of Fort Willamette. We found:"
- nf_wbh.3.a:0 "Some of the hangars and armouries still intact and sealed."
+ nf_wbh.3.a:0 "Some of the hangars and armouries still intact and sealed, providing us with great salvage and gear."
  nf_wbh.3.b:0 "Functional pre-War construction machinery."
  nf_wbh.3.c:0 "The base's reactor still fully operational."
 #What is our goal ?
@@ -39,7 +39,16 @@
  wbh_armed_scribes_desc: "With our scribes now assigned to military duty any advances will be significantly hampered."
  wbh_local_talent: "Using local talent"
  wbh_local_talent_desc: "Communication goes a little difficult between our troops and the locals."
-
+ wbh_nothing_can_stop_us: "Victors of Vault Six"
+ wbh_nothing_can_stop_us_desc: "Not even the horde of Vault Six could faze us."
+ wbh_valuable_discs: "Valuable holodics"
+ wbh_valuable_discs_desc: "The data we gathered will serve us for a long time."
+ wbh_more_valuable_discs: "Valuable holodiscs"
+ wbh_more_valuable_discs_desc: "The data we gathered will serve us for a long time."
+ wbh_functional_construction_gear: "Pre-War construction machinery."
+ wbh_functional_construction_gear_desc: "This machinery will help us build up the north."
+ 
  #Custom Tooltips
  tt_armed_scribes: "6 Units of armed scribes\n" 
- tt_local_talent: "12 units of raiders and mercenaries\n"  
+ tt_local_talent: "12 units of raiders and mercenaries\n"
+ tt_alaskan_reinforcements: "2 units of Brothers from Alaska\n" 
