@@ -36,7 +36,9 @@
   
  #Ideas Localization
  wbh_armed_scribes: "Armed Scribes"
- wbh_armed_scribes: "With our scribes now assigned to military duty any advances will be significantly hampered."
+ wbh_armed_scribes_desc: "With our scribes now assigned to military duty any advances will be significantly hampered."
+ wbh_local_talent: "Using local talent"
+ wbh_local_talent_desc: "Communication goes a little difficult between our troops and the locals."
 
  #Custom Tooltips
  tt_armed_scribes: "X Units of armed scribes" #replace X with proper number.
