@@ -41,5 +41,5 @@
  wbh_local_talent_desc: "Communication goes a little difficult between our troops and the locals."
 
  #Custom Tooltips
- tt_armed_scribes: "X Units of armed scribes" #replace X with proper number.
- tt_local_talent: "X units of mercenaries"  #replace X with proper number.
+ tt_armed_scribes: "6 Units of armed scribes\n" 
+ tt_local_talent: "12 units of raiders and mercenaries\n"  

@@ -1,25 +1,4 @@
 ﻿division_template = {
-	name = "Conscript Brigade"
-	regiments = {
-		militia = { x = 0 y = 0 }
-		militia = { x = 0 y = 1 }
-		militia = { x = 1 y = 0 }
-		militia = { x = 1 y = 1 }
-	}
-}
-
-division_template = {
-	name = "Raider Warband"
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-	}
-}
-
-division_template = {
 	name = "PA Company"
 
 	regiments = {
@@ -68,131 +47,10 @@ units = {
 units = {
 
 	division {
-		name = "Manhunter Brigade"
-		location = 3899
-		division_template = "Raider Warband"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Lance 27"
-		location = 3906
-		division_template = "Raider Warband"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Plasma Core"
-		location = 3905
-		division_template = "Raider Warband"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Rodriguez's Sons"
-		location = 4021
-		division_template = "Raider Warband"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Maw Exiles"
-		location = 1490
-		division_template = "Raider Warband"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Fred's Men"
-		location = 3892
-		division_template = "Raider Warband"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Red Wrists"
-		location = 3893
-		division_template = "Raider Warband"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Masked Ones"
-		location = 3891
-		division_template = "Raider Warband"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Old Country Turncoats"
-		location = 3890
-		division_template = "Raider Warband"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Seattle Conscripts"
-		location = 3890
-		division_template = "Conscript Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Portland Conscripts"
-		location = 3890
-		division_template = "Conscript Brigade"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-	}
-}
-
-units = {
-
-	division {
-		name = "Olympia Conscripts"
-		location = 3890
-		division_template = "Conscript Brigade"
-		start_experience_factor = 0.1
+		name = "Alaskan Brothers"
+		location = 3900
+		division_template = "PA Company"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 	}
 }
@@ -202,7 +60,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = energy_equipment_2
-			creator = "BOS"
+			creator = "WBH"
 		}
 		requested_factories = 1
 		progress = 0.75

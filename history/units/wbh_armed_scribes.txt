@@ -11,9 +11,9 @@ units = {
 
 	division {
 		name = "Janitorial Staff"
-		location = 37
+		location = 3886
 		division_template = "Armed Scribes"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
@@ -23,9 +23,9 @@ units = {
 
 	division {
 		name = "Senior Cadets"
-		location = 37
+		location = 3886
 		division_template = "Armed Scribes"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
@@ -35,9 +35,9 @@ units = {
 
 	division {
 		name = "Medical Orderlies"
-		location = 37
+		location = 3886
 		division_template = "Armed Scribes"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
@@ -47,9 +47,9 @@ units = {
 
 	division {
 		name = "Kitchen Staff"
-		location = 37
+		location = 3886
 		division_template = "Armed Scribes"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
@@ -59,9 +59,9 @@ units = {
 
 	division {
 		name = "1st Squires"
-		location = 37
+		location = 3886
 		division_template = "Armed Scribes"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	
@@ -71,9 +71,9 @@ units = {
 
 	division {
 		name = "2nd Squires"
-		location = 37
+		location = 3886
 		division_template = "Armed Scribes"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	

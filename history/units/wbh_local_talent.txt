@@ -22,9 +22,9 @@ units = {
 
 	division {
 		name = "Toothless Maw"
-		location = 37
+		location = 3886
 		division_template = "Raider Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
@@ -34,9 +34,9 @@ units = {
 
 	division {
 		name = "Dingo's Dozen"
-		location = 37
+		location = 3886
 		division_template = "Raider Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
@@ -46,9 +46,9 @@ units = {
 
 	division {
 		name = "Seattle Raiders"
-		location = 37
+		location = 3886
 		division_template = "Raider Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
@@ -58,9 +58,9 @@ units = {
 
 	division {
 		name = "Portland Ponies"
-		location = 37
+		location = 3886
 		division_template = "Raider Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
@@ -70,9 +70,9 @@ units = {
 
 	division {
 		name = "Mutant Hunters"
-		location = 37
+		location = 3886
 		division_template = "Raider Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
@@ -82,9 +82,9 @@ units = {
 
 	division {
 		name = "Sixers"
-		location = 37
+		location = 3886
 		division_template = "Raider Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
@@ -95,9 +95,9 @@ units = {
 
 	division {
 		name = "Willamette Roughs"
-		location = 37
+		location = 3886
 		division_template = "Raider Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
@@ -107,9 +107,9 @@ units = {
 
 	division {
 		name = "Atarn's Angels"
-		location = 37
+		location = 3886
 		division_template = "Raider Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.1
 		start_equipment_factor = 1.0
 	}
 	
@@ -119,9 +119,9 @@ units = {
 
 	division {
 		name = "3rd Talon Company"
-		location = 37
+		location = 3886
 		division_template = "Mercenary Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.75
 		start_equipment_factor = 1.0
 	}
 	
@@ -131,9 +131,9 @@ units = {
 
 	division {
 		name = "4th Talon Company"
-		location = 37
+		location = 3886
 		division_template = "Mercenary Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.75
 		start_equipment_factor = 1.0
 	}
 	
@@ -143,9 +143,9 @@ units = {
 
 	division {
 		name = "5th Talen Company"
-		location = 37
+		location = 3886
 		division_template = "Mercenary Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.75
 		start_equipment_factor = 1.0
 	}
 	
@@ -155,9 +155,9 @@ units = {
 
 	division {
 		name = "6th Talen Company"
-		location = 37
+		location = 3886
 		division_template = "Mercenary Company"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.75
 		start_equipment_factor = 1.0
 	}
 	

@@ -10,7 +10,7 @@ country_event = {
     
 	option = {
 		name = nf_wbh.1.a
-		hidden_effect = { load_oob = wbh_armed_scribes } #create wbh_armed_scribes file in /history/units
+		hidden_effect = { load_oob = wbh_armed_scribes } 
 		custom_effect_tooltip = tt_armed_scribes		
 		add_ideas = wbh_armed_scribes
         
@@ -18,7 +18,7 @@ country_event = {
 	
 	option = {
 		name = nf_wbh.1.b
-		hidden_effect = { load_oob = wbh_local_talent } #create wbh_local_talent file in / history/units
+		hidden_effect = { load_oob = wbh_local_talent } 
 		custom_effect_tooltip = tt_local_talent		
 		add_ideas = wbh_local_talent
 		
