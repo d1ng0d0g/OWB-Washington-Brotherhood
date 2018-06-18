@@ -23,20 +23,19 @@
  nf_wbh.4.desc:0 "With our brothers up north in Alaska and our brothers south in California we came to the Washington Wasteland because:"
  nf_wbh.4.a:0 "Pre-War espionage might give insight in how to stop the Chinese Doomsday Device."
  nf_wbh.4.b:0 "Create a buffer state to guarantuee the survival of our Alaskan brethren."
-
- #National Focus Localization
-  wbh_savage_locals: "Savage Locals"
-  wbh_savage_locals_desc: "We are under attack by the braves of the so called Issaquah Nation and the freaks, mutants and abomination that call themselves The Cause."
-  wbh_vault_six: "Vault Six"
-  wbh_vault_six_desc: "We are going to open the doors to Vault Six. It's doors have not been opened since the war started."
-  wbh_fort_willamette: "Fort Willamette"
-  wbh_fort_willamette_desc: "The automated defenses of the Fort are still operational. We're going to breach them to see what it is protecting."
-  wbh_our_goal: "Our goal ?"
-  wbh_our_goal_desc: "We came to the Washington State Wasteland with a reason."
-  wbh_neighbour_puppet: "Enforce our rules. "
-  wbh_neighbour_puppet_desc: "We hold no grudges to our former enemies as long as they follow our rules. They shall not suffer the mutant and the ghoul to live among them. And they shall provide us with their levy."
-  wbh_neighbour_annex: ""
-  wbh_neighbour_annex_desc: ""
+#National Focus Localization
+ wbh_savage_locals: "Savage Locals"
+ wbh_savage_locals_desc: "We are under attack by the braves of the so called Issaquah Nation and the freaks, mutants and abomination that call themselves The Cause."
+ wbh_vault_six: "Vault Six"
+ wbh_vault_six_desc: "We are going to open the doors to Vault Six. It's doors have not been opened since the war started."
+ wbh_fort_willamette: "Fort Willamette"
+ wbh_fort_willamette_desc: "The automated defenses of the Fort are still operational. We're going to breach them to see what it is protecting."
+ wbh_our_goal: "Our goal ?"
+ wbh_our_goal_desc: "We came to the Washington State Wasteland with a reason."
+ wbh_neighbour_puppet: "Enforce our rules "
+ wbh_neighbour_puppet_desc: "We hold no grudges to our former enemies as long as they follow our rules. They shall not suffer the mutant and the ghoul to live among them. And they shall provide us with their levy."
+ wbh_neighbour_annex: "Impose our will"
+ wbh_neighbour_annex_desc: "The territories we have conquered have many people living into it, but just as many tainted by radiation and the FEV. We must clean ourself of that taint. "
  
  #Ideas Localization
  wbh_armed_scribes: "Armed Scribes"
@@ -51,10 +50,12 @@
  wbh_more_valuable_discs_desc: "The data we gathered will serve us for a long time."
  wbh_functional_construction_gear: "Pre-War construction machinery."
  wbh_functional_construction_gear_desc: "This machinery will help us build up the north."
- wbh_bitch: "We're paying massively to our overlord."
- wbh_bitch_desc: "Harsh tarrifs and high demands for labour on puppeted nations"
+ wbh_bitch: "Subservience to our overlords"
+ wbh_bitch_desc: "Our overlord demands a lot from us, but in return we get access to their expertise."
+ wbh_our_bitch: "Tribute"
+ wbh_our_bitch_desc: "Our puppets are paying us tribute in goods and men as we require."
  
- #Custom Tooltips
+#Custom Tooltips
  tt_armed_scribes: "6 Units of armed scribes\n" 
  tt_local_talent: "12 units of raiders and mercenaries\n"
  tt_alaskan_reinforcements: "2 units of Brothers from Alaska\n" 

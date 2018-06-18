@@ -58,18 +58,31 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				production_speed_buildings_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
 			}
 		}
+		#Affects all our puppets. Remember to remove when not puppet
 		wbh_bitch = {
+			picture = VEG_Military_Priorities
+			allowed = {
+			}
+			removal cost = -1
+			modifier = {
+				consumer_goods_factor = -0.10
+				monthly_population = -0.05
+				research_time_factor = 0.10
+			}
+		}
+		#Puppets ISN / TCA  Remember to remove when not puppets.
+		wbh_our_bitch_1 = {
 			picture = VEG_Military_Priorities
 			allowed = {
 
 			}
-			removal_cost = -1
+			removal cost = -1
 			modifier = {
-				targeted_modifier = { tag = WBH cic_to_target_factor = 1.0 }
-				targeted_modifier = { tag = WBH mic_to_target_factor = 1.0 }
+				consumer_goods_factor = 0.01 #those savages have little we want
+				monthly_population = 0.02
 			}
 		}
-	}
 }

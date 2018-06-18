@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 100
+			add = 20
 			tag = WBH
 		}
 	}
@@ -76,18 +76,15 @@ focus_tree = {
 			focus = wbh_our_goal
 		}
 		available = {
-			ISN = {
-				is_puppet_of = WBH
-			}
-			TCA = {
-				is_puppet_of = WBH
-			}
+			ISN = { is_puppet_of = WBH}
+			TCA = { is_puppet_of = WBH}
 		}
 	x = 16
 	y = 3
-
 		completion_reward = {
-
+			ISN = {add_ideas = wbh_bitch}
+			TCA = {add_ideas = wbh_bitch}
+			add_ideas = wbh_our_bitch_1
 		}
 	}
 	focus = {
@@ -98,7 +95,7 @@ focus_tree = {
 			focus = wbh_our_goal
 		}
 		available = {
-			country_has_flag = wbh_border
+			has_country_flag = wbh_border
 			AND = {
 				NOT = {country_exists = TCA}
 				NOT = {country_exists = ISN}
@@ -112,6 +109,7 @@ focus_tree = {
     		every_owned_state = {
         		limit = {
             	is_core_of = TCA
+            	is_core_of = ISN
         		}
         	add_core_of = WBH
     		}
