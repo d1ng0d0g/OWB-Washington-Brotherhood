@@ -52,9 +52,8 @@
  wbh_functional_construction_gear_desc:0 "This machinery will help us build up the north."
  wbh_bitch:0 "Subservience to our overlords"
  wbh_bitch_desc:0 "Our overlord demands a lot from us, but in return we get access to their expertise."
- wbh_our_bitch_1:0 "Tribute"
- wbh_our_bitch_desc_1:0 "Our puppets are paying us tribute in goods and men as we require."
- 
+ wbh_purging_mutants:0 "Killing Mutants and Ghouls"
+ wbh_purging_mutants_desc:0 "We have the duty to remove mutants and ghouls from our lands. Such disgusting duty always attracts fanatics."
 #Custom Tooltips
  tt_armed_scribes:0 "6 Units of armed scribes\n" 
  tt_local_talent:0 "12 units of raiders and mercenaries\n"

@@ -64,25 +64,29 @@ ideas = {
 		#Affects all our puppets. Remember to remove when not puppet
 		wbh_bitch = {
 			picture = VEG_Military_Priorities
-			allowed = {
+			allowed = { always = no }
+			removal_cost = -1
+			cancel = {has_autonomy_level = free }
+			targeted_modifier = {
+				tag = WBH
+				cic_to_target_factor = 0.75 #take their means of production
+				mic_to_target_factor = 0.75
+				extra_trade_to_target_factor = 0.5 #half their resources for free
+				trade_cost_for_target_factor = 0.5 #pay only half too
 			}
-			removal cost = -1
 			modifier = {
-				consumer_goods_factor = -0.10
-				monthly_population = -0.05
 				research_time_factor = 0.10
+				monthly_population = -0.05	#draft, removal of the unwanted (mutants, ghouls, other).
 			}
 		}
-		#Puppets ISN / TCA  Remember to remove when not puppets.
-		wbh_our_bitch_1 = {
+		wbh_purging_mutants = {
 			picture = VEG_Military_Priorities
 			allowed = {
-
 			}
-			removal cost = -1
+			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = 0.01 #those savages have little we want
-				monthly_population = 0.02
+				monthly_population = -1.0 #Purge the Unclean, the Heretic, and the Mutants
+				conscription = 0.01	#Fanatics appear.
 			}
 		}
 	}
