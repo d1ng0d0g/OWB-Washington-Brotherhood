@@ -85,4 +85,5 @@ ideas = {
 				monthly_population = 0.02
 			}
 		}
+	}
 }
