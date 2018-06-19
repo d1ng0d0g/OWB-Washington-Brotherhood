@@ -89,5 +89,25 @@ ideas = {
 				conscription = 0.01	#Fanatics appear.
 			}
 		}
+		wbh_vault_six_base = {
+			picture = VEG_Military_Priorities
+			allowed = {
+
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.10
+			}
+		}
+		wbh_fort_willamette_base = {
+			picture = VEG_Military_Priorities
+			allowed = {
+
+			}
+			removal_cost = -1
+			modifier = {
+				planning_speed = 0.10
+			}
+		}
 	}
 }

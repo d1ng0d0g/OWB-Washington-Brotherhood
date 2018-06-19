@@ -3,26 +3,36 @@
 # Events Localisation
 # Savage Locals
  nf_wbh.1.t:0 "Savage Locals"
- nf_wbh.1.desc:0 "The locals did not appreciate our investigation of Fort Willamette and Vault Six. They attacked us straight away. The braves of the so called Issaquah Nation and the freaks, mutants and abominations that call themselves The Cause. We were not prepared to be attacked in such numbers. And so we had to call for help. "
+ nf_wbh.1.desc:0 "The locals did not appreciate our intended investigation of Fort Willamette and Vault Six. They saw our expedition as a threat and immediately attacked. Unprepared for a violent response of this magnitude we were forced to rely on others for the success of our mission. "
  nf_wbh.1.a:0 "We armed every man and woman that already served the Brotherhood."
  nf_wbh.1.b:0 "No matter our distaste, we had to call and rely on the help of mercenaries."
+
 #What we found in the Vault
  nf_wbh.2.t:0 "What we found?	"
  nf_wbh.2.desc:0 "With the savages still threatening us, we have penetrated the defenses of Vault Six. We found:"
  nf_wbh.2.a:0 "A seemingly endless stream of ghouls that forced us to abandon the mission."
  nf_wbh.2.b:0 "A lot of ghouls, but we managed to acquire valuable holodiscs from inside. "
  nf_wbh.2.c:0 "The vault was a boneyard, but we acquired valuable holodiscs from inside."
+
 #What we found in the Fort
  nf_wbh.3.t:0 "What we found? "
  nf_wbh.3.desc:0 "With the savages still threatening us, we have penetrated the defenses of Fort Willamette. We found:"
  nf_wbh.3.a:0 "Some of the hangars and armouries still intact and sealed, providing us with great salvage and gear."
  nf_wbh.3.b:0 "Functional pre-War construction machinery."
  nf_wbh.3.c:0 "The base's reactor still fully operational."
+
 #What is our goal ?
  nf_wbh.4.t:0 "Our goal ?"
  nf_wbh.4.desc:0 "With our brothers up north in Alaska and our brothers south in California we came to the Washington Wasteland because:"
  nf_wbh.4.a:0 "Pre-War espionage might give insight in how to stop the Chinese Doomsday Device."
  nf_wbh.4.b:0 "Create a buffer state to guarantuee the survival of our Alaskan brethren."
+
+#Fort or Vault
+ nf_wbh.5.t:0 "Fort or Vault"
+ nf_wbh.5.desc:0 "After our finds at the Fort and the Vault we need to make a decision. Will we set up our headquarters at the Vault or the Fort? The Vault is easier to defend. Where the Fort provides us with avenues of preparedness."
+ nf_wbh.5.a:0 "Vault Six"
+ nf_wbh.5.b:0 "Fort Willamette"
+
 #National Focus Localization
  wbh_savage_locals:0 "Savage Locals"
  wbh_savage_locals_desc:0 "We are under attack by the braves of the so called Issaquah Nation and the freaks, mutants and abomination that call themselves The Cause."
@@ -32,10 +42,12 @@
  wbh_fort_willamette_desc:0 "The automated defenses of the Fort are still operational. We're going to breach them to see what it is protecting."
  wbh_our_goal:0 "Our goal ?"
  wbh_our_goal_desc:0 "We came to the Washington State Wasteland with a reason."
- wbh_neighbour_puppet:0 "Enforce our rules "
+ wbh_neighbour_puppet:0 "Enforcing our rules "
  wbh_neighbour_puppet_desc:0 "We hold no grudges to our former enemies as long as they follow our rules. They shall not suffer the mutant and the ghoul to live among them. And they shall provide us with their levy."
- wbh_neighbour_annex:0 "Impose our will"
- wbh_neighbour_annex_desc:0 "The territories we have conquered have many people living into it, but just as many tainted by radiation and the FEV. We must clean ourself of that taint. "
+ wbh_neighbour_annex:0 "Imposing our will"
+ wbh_neighbour_annex_desc:0 "The territories we have conquered have many people living into it, but just as many tainted by radiation and the FEV. We must rid ourself of that taint. "
+ wbh_permanent_presence:0 "Fort or Vault"
+ wbh_permanent_presence_desc:0 "With what we found so far, we have to make a decision where we will set up our main base of operation. Fort Willamette and Vault Six are both viable options."
  
  #Ideas Localization
  wbh_armed_scribes:0 "Armed Scribes"
@@ -54,6 +66,11 @@
  wbh_bitch_desc:0 "Our overlord demands a lot from us, but in return we get access to their expertise."
  wbh_purging_mutants:0 "Killing Mutants and Ghouls"
  wbh_purging_mutants_desc:0 "We have the duty to remove mutants and ghouls from our lands. Such disgusting duty always attracts fanatics."
+ wbh_vault_six_base:0 "Vault Headquarters"
+ wbh_vault_six_base_desc:0 "We have turned Vault Six into our military headquarters."
+ wbh_fort_willamette_base:0 "Fort Willamette Headquarters"
+ wbh_fort_willamette_base_desc:0 "We have turned Fort Willamette into our military headquarters."
+
 #Custom Tooltips
  tt_armed_scribes:0 "6 Units of armed scribes\n" 
  tt_local_talent:0 "12 units of raiders and mercenaries\n"

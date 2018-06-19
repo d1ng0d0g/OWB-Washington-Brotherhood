@@ -11,7 +11,7 @@ focus_tree = {
 	}
 		
 	default = no
-
+#Help The Locals Are Attacking
 	focus = {
 		id = wbh_savage_locals
 		icon = GFX_goal_bos_generic
@@ -25,6 +25,7 @@ focus_tree = {
 		}
 
 	}
+#Let's open Vault Six
 	focus = {
 		id = wbh_vault_six
 		icon = GFX_goal_bos_generic
@@ -38,6 +39,7 @@ focus_tree = {
 			country_event = { id = nf_wbh.2 }
 		}
 	}
+#Let's rebuild and refocus on Fort Willamette
 	focus = {
 		id = wbh_fort_willamette
 		icon = GFX_goal_bos_generic
@@ -51,6 +53,7 @@ focus_tree = {
 			country_event = { id = nf_wbh.3 }
 		}
 	}
+#What are we about
 	focus = {
 		id = wbh_our_goal
 		icon = GFX_goal_bos_generic
@@ -67,6 +70,7 @@ focus_tree = {
 			country_event = { id = nf_wbh.4 }
 		}
 	}
+#Puppets are awesome!
 	focus = {
 		id = wbh_neighbour_puppet
 		icon = GFX_goal_bos_generic
@@ -85,6 +89,7 @@ focus_tree = {
 			TCA = {add_ideas = wbh_bitch}
 		}
 	}
+#Annexation has different advantages
 	focus = {
 		id = wbh_neighbour_annex
 		icon = GFX_goal_bos_generic
@@ -117,5 +122,21 @@ focus_tree = {
 			days = 120
 		}
 	}
+#Take up permanent residence in Washington State  // Fort or Vault
+	focus = {
+		id = wbh_permanent_presence
+		icon = GFX_goal_bost_generic
+		costs = 10
+		prerequisite = {
+			wbh_our_goal
+		}
+		available = {}
+	x = 14
+	y = 3
+	completion_reward = {
+		country_event = { id = nf_wbh.5 }		
+	}
+	}
+#Outside recruitment has shown value. Keep them in their current capacity or integrate them ? (Switch to normal conscription ? If not get bigger reward from China Mission ?)
 	}
 }

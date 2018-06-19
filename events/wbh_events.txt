@@ -124,5 +124,25 @@ country_event = {
 		
 	}
 }
+#Permanent Residence
+country_event = {
+	id = nf_wbh.5
+	title = nf_wbh.5.t
+	desc = nf_wbh.5.desc
+	picture = GFX_event_BOS_super_mutant
+
+	is_triggered_only = yes
+
+	option = {
+		name = nf_wbh.5.a
+		add_ideas = wbh_vault_six_base
+		set_capital = 351
+	}
+	option = {
+		name = nf_wbh.5.b
+		add_ideas = wbh_fort_willamette_base
+		set_capital = 37
+	}
+}
 
 # remove_idea wbh_armed_scribes after some time. Maybe decision ? Sounds better.
