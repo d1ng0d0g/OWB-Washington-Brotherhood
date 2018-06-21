@@ -136,7 +136,6 @@ focus_tree = {
 	completion_reward = {
 		country_event = { id = nf_wbh.5 }		
 	}
-
-#Outside recruitment has shown value. Keep them in their current capacity or integrate them ? (Switch to normal conscription ? If not get bigger reward from China Mission ?)
 	}
 }
+

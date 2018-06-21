@@ -1,4 +1,4 @@
-﻿capital = 37
+capital = 37
 oob = "WBH_2265"
 
 set_technology = {
