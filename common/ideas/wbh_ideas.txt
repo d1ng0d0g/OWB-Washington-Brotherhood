@@ -91,7 +91,6 @@ ideas = {
 		wbh_vault_six_base = {
 			picture = VEG_Military_Priorities
 			allowed = {
-
 			}
 			removal_cost = -1
 			modifier = {
@@ -101,7 +100,6 @@ ideas = {
 		wbh_fort_willamette_base = {
 			picture = VEG_Military_Priorities
 			allowed = {
-
 			}
 			removal_cost = -1
 			modifier = {
