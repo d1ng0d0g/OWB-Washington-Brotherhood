@@ -61,8 +61,7 @@ ideas = {
 				production_speed_infrastructure_factor = 0.10
 			}
 		}
-		#Affects all our puppets. Remember to remove when not puppet
-		wbh_bitch = {
+		wbh_bitch = {	#Affects all our puppets. Remember to remove when not puppet
 			picture = VEG_Military_Priorities
 			allowed = { always = no }
 			removal_cost = -1
