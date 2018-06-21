@@ -1,4 +1,4 @@
-﻿add_namespace = nf_wbh
+add_namespace = nf_wbh
 #Savage Locals
 country_event = {
 	id = nf_wbh.1
@@ -145,4 +145,3 @@ country_event = {
 	}
 }
 
-# remove_idea wbh_armed_scribes after some time. Maybe decision ? Sounds better.

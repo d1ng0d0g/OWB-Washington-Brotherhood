@@ -49,7 +49,7 @@
  wbh_permanent_presence:0 "Fort or Vault"
  wbh_permanent_presence_desc:0 "With what we found so far, we have to make a decision where we will set up our main base of operation. Fort Willamette and Vault Six are both viable options."
  
- #Ideas Localization
+#Ideas Localization
  wbh_armed_scribes:0 "Armed Scribes"
  wbh_armed_scribes_desc:0 "With our scribes now assigned to military duty any advances will be significantly hampered."
  wbh_local_talent:0 "Using local talent"
@@ -74,4 +74,4 @@
 #Custom Tooltips
  tt_armed_scribes:0 "6 Units of armed scribes\n" 
  tt_local_talent:0 "12 units of raiders and mercenaries\n"
- tt_alaskan_reinforcements:0 "2 units of Brothers from Alaska\n" 
+ tt_alaskan_reinforcements:0 "2 units of Brothers from Alaska\n"
